@@ -82,10 +82,19 @@
 
 .littleimg {
 	width: 140px;
-	margin-right: 25px;
-	margin-bottom: 90px;
+	margin-right: 52px;
+	margin-bottom: 70px;
 	margin-top: -50px;
 	float: right;
+}
+
+@media screen and (max-width: 1250px) {
+	.littleimg {
+		width: 200px;
+		margin-bottom: 70px;
+		margin-top: -50px;
+		float: left;
+	}
 }
 
 @media screen and (max-width: 1163px) {
